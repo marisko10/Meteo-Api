@@ -1,0 +1,99 @@
+/* reset simples */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root{
+  --bg: #e9f0ff;
+  --card: #ffffff;
+  --accent: #1e88e5;
+  --muted: #6b7280;
+}
+
+html,body {
+  height: 100%;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg,#eef6ff 0%, var(--bg) 100%);
+  color: #111827;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--card);
+  border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(16,24,40,0.08);
+  padding: 24px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.search input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #e6edf8;
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+}
+
+.search input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(30,136,229,0.06);
+}
+
+.search button {
+  padding: 10px 14px;
+  border: none;
+  background: var(--accent);
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 96px;
+}
+
+.search button:active { transform: translateY(1px); }
+
+.result {
+  margin-top: 6px;
+  text-align: left;
+  min-height: 110px;
+  padding: 12px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(14,165,233,0.04), rgba(14,165,233,0.02));
+  border: 1px solid rgba(14,165,233,0.06);
+}
+
+.result h2 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.result p { margin: 6px 0; font-size: 15px; }
+
+.hint {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.footer {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 12px;
+}
