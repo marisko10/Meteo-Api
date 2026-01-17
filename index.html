@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+  
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Weather App - Exemplo</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <main class="card">
+
+    <!-- App Title -->
     <h1>🌦️ Weather App</h1>
 
+    <!-- Search Section -->
     <div class="search">
-      <input id="cityInput" type="text" placeholder="Escreve uma cidade (ex: Lisbon)" />
+      <input
+        id="cityInput"
+        type="text"
+        placeholder="Escreve uma cidade (ex: Lisbon)"
+      />
       <button id="searchBtn">Procurar</button>
     </div>
 
+    <!-- Result Section -->
     <div id="result" class="result">
-      
       <p class="hint">Escreve uma cidade e clica em Procurar.</p>
     </div>
 
+    <!-- Footer -->
     <footer class="footer">
       <p>MeteoAPI</p>
     </footer>
-  </main>
 
+  </main>
 
   <script src="script.js"></script>
 </body>
