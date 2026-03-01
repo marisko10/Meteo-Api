@@ -1,25 +1,31 @@
-                  Weather App
+# 🌤️ Meteo App
 
-Aplicação web simples que permite pesquisar o clima de qualquer cidade utilizando uma API de meteorologia.
+Aplicação web que permite pesquisar qualquer cidade e visualizar dados meteorológicos em tempo real através de uma API externa.
 
+Projeto desenvolvido para consolidar conhecimentos em JavaScript, consumo de APIs e manipulação dinâmica do DOM.
 
-                  Funcionalidades
+---
 
-- Pesquisar o clima por cidade
-- Mostrar temperatura, condição climática e localização
-- Interface simples e responsiva
+## ✨ Destaques
 
+✔ Pesquisa de cidades em tempo real  
+✔ Exibição da temperatura e condições meteorológicas  
+✔ Integração com API externa  
+✔ Interface simples, moderna e responsiva  
 
-                    Tecnologias
+---
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- API de meteorologia
+## 🛠️ Tecnologias Utilizadas
 
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)  
+- Fetch API  
+- Manipulação do DOM  
 
+---
 
-                   Demo Online  
-meteo-e0fv6kjwc-pedromcfreitas10-1648s-projects.vercel.app 
+## 👨‍💻 Autor
 
+**Pedro Freitas**
 
