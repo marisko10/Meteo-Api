@@ -59,6 +59,7 @@ body {
   display: flex;
   gap: 8px;
   margin-bottom: 20px;
+  
 }
 
 .search-box input {
@@ -71,8 +72,8 @@ body {
   color: #1e293b;
   outline: none;
   background: rgba(255, 255, 255, 0.9);
-
-}
+  width: 70%;
+ }
 
 .search-box input:focus {
   border-color: #3b82f6;
@@ -192,3 +193,4 @@ body {
 .footer a:hover {
   text-decoration: underline;
 }
+
